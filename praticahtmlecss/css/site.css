@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/*Configuração geral do corpo da página*/
+body{
+    margin:0 auto;
+    font-family:"Century Gothic" sans-serif;
+
+    background-color: rgb(2, 2, 2);
+}
+/*Cabeçalho*/
+    header{
+
+            height: 170px;
+            background-color: #f51616;
+    }
+    header img{
+        float:left;
+        height:150px;
+        width:150px;
+        margin:10px;
+    }
+h1{
+    color: rgb(233, 13, 13);
+}
+
+

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/*Configuração geral do corpo da página*/
+
+body{
+    background-color: antiquewhite;
+}
+h1{
+    color:purple;
+    padding:10px
+}
+p{
+    color:black;
+}
