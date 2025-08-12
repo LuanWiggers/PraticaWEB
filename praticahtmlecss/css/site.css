@@ -4,13 +4,21 @@ body{
     margin:0 auto;
     font-family:"Century Gothic" sans-serif;
 
+<<<<<<< HEAD
     background-color: rgb(255, 255, 255);
+=======
+    background-color: rgb(2, 2, 2);
+>>>>>>> eed42931e778253b66318447559b07a0bcaaa57d
 }
 /*Cabeçalho*/
     header{
 
             height: 170px;
+<<<<<<< HEAD
             background-color: #0380f5;
+=======
+            background-color: #f51616;
+>>>>>>> eed42931e778253b66318447559b07a0bcaaa57d
     }
     header img{
         float:left;
@@ -19,6 +27,7 @@ body{
         margin:10px;
     }
 h1{
+<<<<<<< HEAD
     color: rgb(8, 8, 8);
 }
 header h1{
@@ -196,4 +205,9 @@ tr:nth-child(odd){
     font-weight:bold;
     font-size: 16px;
 }
+=======
+    color: rgb(233, 13, 13);
+}
+
+>>>>>>> eed42931e778253b66318447559b07a0bcaaa57d
 
