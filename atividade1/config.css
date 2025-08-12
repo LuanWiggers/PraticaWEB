@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+Body{
+    background-color: bisque;
+}
+h1{
+    color:blueviolet;
+    padding:10px
+}
+p{
+    color:aqua;
+}
+h2{
+    color: blue;
+}
