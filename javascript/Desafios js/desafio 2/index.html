@@ -3,36 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="js/valproc.js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/imc.js" defer></script>
+    <title>Calculadora de IMC - SÓENGORDA LTDA.</title>
 </head>
 <body>
-    <font face="arial"><h2>Desafio 2 
-
-        A academia de ginástica “SÓENGORDA LTDA.” necessita de uma solução que 
-        calcule e informe o IMC (Indice de Massa Corpórea) de uma pessoa, considerando: 
-        IMC = Peso / Altura * Altura. Permita que este programa seja executado quantas vezes 
-        o usuário desejar.
-        
+    <font face="Arial">
+        <h2>
+            A academia de ginástica “SÓENGORDA LTDA.” necessita de uma solução que 
+            calcule e informe o IMC (Índice de Massa Corpórea) de uma pessoa, considerando: 
+            IMC = Peso / (Altura * Altura). Permita que este programa seja executado quantas vezes 
+            o usuário desejar.
         </h2>
         <section>
-            <form name="frmTabuada" action="#" method="get" onsubmit="return procDados()">
-                <fieldset class="cadinteiro">
-                    <legend>Insira os números</legend>
-                    <label>Valor 1</label>
-                    <input type="text" name="campoVal1" id="inptval1">
-                    <button type="reset">limpar</button><button type="submit">Enviar</button>
-
-                    <label>Valor 2</label>
-                    <input type="text" name="campoVal2" id="inptval2">
-                    <button type="reset">limpar</button><button type="submit">Enviar</button>
-
-                    <label>Resultado</label>
-                    <input type="text" name="campoResul" id="inptresul">
-                    <button type="reset">limpar</button><button type="submit">Enviar</button>
-                </fieldset>
-            </form>
+            <button onclick="calcularIMC()">Calcular IMC</button>
         </section>
     </font>
 </body>
