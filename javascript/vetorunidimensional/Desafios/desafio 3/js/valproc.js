@@ -3,21 +3,21 @@ function vetor() {
     let vetor = [];
     
     for (let i = 0; i < 5; i++) {
-      let valor = parseInt(prompt("Digite um valor inteiro para a posição " + i + ":"));
+      let valor = parseInt(prompt("Digite o valor inteiro para a posição " + i + ":"));
       vetor.push(valor);
     }
     
-    let multiplicador = parseInt(prompt("Digite um valor inteiro para multiplicar:"));
+    let numeroquemultiplica = parseInt(prompt("Digite o valor inteiro para multiplicar o elemento:"));
     
-    let resultados = [];
+    let resultadomultiplicacao = [];
     
     for (let i = 0; i < vetor.length; i++) {
-      resultados.push(vetor[i] * multiplicador);
+      resultadomultiplicacao.push(vetor[i] * numeroquemultiplica);
     }
     
     console.log("Resultados da multiplicação:");
-    for (let i = 0; i < resultados.length; i++) {
-      console.log("Posição " + i + ": " + resultados[i]);
+    for (let i = 0; i < resultadomultiplicacao.length; i++) {
+      console.log("Posição " + i + ": " + resultadomultiplicacao[i]);
     }
     
     }

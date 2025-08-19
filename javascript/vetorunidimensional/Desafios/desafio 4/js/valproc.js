@@ -1,15 +1,15 @@
 function vetor(){
  
-    let numeros = [];
+    let numerosinteiro = [];
     
     for (let i = 0; i < 4; i++) {
         let valor = parseInt(prompt("Digite um número inteiro: "));
-        numeros.push(valor); 
+        numerosinteiro.push(valor); 
     }
     
     console.log("Números em ordem inversa:");
-    for (let i = numeros.length - 1; i >= 0; i--) {
-        console.log(numeros[i]);
+    for (let i = numerosinteiro.length - 1; i >= 0; i--) {
+        console.log(numerosinteiro[i]);
     }
     
     return false;
