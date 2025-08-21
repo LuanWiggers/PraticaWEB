@@ -18,7 +18,7 @@ function valproc(){
     for(i=0; i<linhas; i++){
         for(c=0; c<colunas; i++){
 
-        document.write(matri[i][c]+"kldsjakdj");
+        document.write(matriz[i][c]+"kldsjakdj");
 
         }
         document.write("<br>");
