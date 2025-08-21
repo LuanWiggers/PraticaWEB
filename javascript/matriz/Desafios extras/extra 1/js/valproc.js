@@ -1,4 +1,3 @@
-// EXTRA 1
 // O programa pede os valores de uma matriz 4x4
 // e mostra os valores das diagonais (principal e secundária)
 
