@@ -1,3 +1,4 @@
+function valproc(){
 // O programa pede os valores de uma matriz 4x4
 // e mostra os valores das diagonais (principal e secundária)
 
@@ -27,4 +28,5 @@ for (let i = 0; i < 4; i++) {
 console.log("Diagonal secundária:");
 for (let i = 0; i < 4; i++) {
   console.log(matriz[i][3 - i]);
+}
 }

@@ -1,3 +1,4 @@
+function valproc(){
 // Supermercado Alegria - controle de compras dos 3 clientes nos 3 últimos meses
 
 // Vetor para guardar os nomes
@@ -65,4 +66,5 @@ if (opcao === 1) {
   }
 } else {
   console.log("Opção inválida!");
+}
 }

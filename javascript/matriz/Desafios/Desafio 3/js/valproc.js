@@ -1,17 +1,18 @@
-let matrizOriginal = [
-  [1, 2, 3, 4, 5],
-  [6, 7, 8, 9, 10],
-  [11, 12, 13, 14, 15],
-  [16, 17, 18, 19, 20],
-  [21, 22, 23, 24, 25]
-];
+function valproc(){
+// DESAFIO 3
+// O programa pede os valores de uma matriz 5x5
+// e gera outra matriz com o dobro dos valores
 
+let matrizOriginal = [];
 let matrizDobro = [];
 
-for (let i = 0; i < matrizOriginal.length; i++) {
-  matrizDobro[i] = []; // cria a linha vazia
-  for (let j = 0; j < matrizOriginal[i].length; j++) {
-    matrizDobro[i][j] = matrizOriginal[i][j] * 2;
+for (let i = 0; i < 5; i++) {
+  matrizOriginal[i] = [];
+  matrizDobro[i] = [];
+  for (let j = 0; j < 5; j++) {
+    let valor = parseInt(prompt("Digite o valor da posição [" + (i+1) + "][" + (j+1) + "]:"));
+    matrizOriginal[i][j] = valor;
+    matrizDobro[i][j] = valor * 2;
   }
 }
 
@@ -20,3 +21,4 @@ console.table(matrizOriginal);
 
 console.log("Matriz com o dobro:");
 console.table(matrizDobro);
+}
